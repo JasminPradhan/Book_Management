@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'booknotes.apps.BooknotesConfig',
+    
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
