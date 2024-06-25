@@ -27,13 +27,19 @@ def getRoutes(req):
         {
             'Endpoint': '/notes/create/',
             'method': 'POST',
-            'body': {'body': ""},
+            'body': {
+                'title':"",
+                'body': ""
+                },
             'description': 'Creates new note with data sent in post request'
         },
         {
             'Endpoint': '/notes/id/update/',
             'method': 'PUT',
-            'body': {'body': ""},
+            'body': {
+                'title':"",
+                'body': ""
+                },
             'description': 'Creates an existing note with data sent in post request'
         },
         {
